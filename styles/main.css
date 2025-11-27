@@ -1,0 +1,59 @@
+/* General */
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 256px;
+}
+.header {
+    background-color: #0A9687;
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "TT Hoves", sans-serif;
+    color: #00C8B3;
+}
+.header_title {
+    font-style: 56px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.header_text {
+    font-style: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 437px;
+    margin-bottom: 30px;
+
+}
+.header_button {
+    width: 194px;
+    height: 60px;
+    font-family: "TT Hoves", serif;
+    font-style: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+    border: 1px solid var(--3, #F9F9F9);
+}
+/* Все услуги */
+
+/* Media */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header_title {
+        font-style: 36px;
+    }
+}
