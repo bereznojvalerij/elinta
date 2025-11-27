@@ -6,9 +6,10 @@ html {
     box-sizing: inherit;
 }
 body {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     font-family: "TT Hoves", sans-serif;
 }
 .container {
@@ -45,6 +46,21 @@ body {
     font-weight: 400;
     border-radius: 25px;
     border: 1px solid var(--3, #F9F9F9);
+}
+.header_items {
+    width: 256px;
+    margin-left: 80px;
+    padding: 15px 0;
+}
+.header_items2 {
+    width: 70px;
+    margin-left: 80px;
+    padding: 15px 0;
+}
+.header_items3 {
+    width: 80px;
+    margin-left: 80px;
+    padding: 27px 0;
 }
 /* Все услуги */
 
