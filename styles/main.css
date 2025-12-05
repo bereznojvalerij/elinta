@@ -25,6 +25,7 @@ body {
     align-items: center;
     width: 100%;
     padding-right: 25px;
+    font-size: 17px;
 }
 .header {
     min-height: 600px;
@@ -53,6 +54,8 @@ body {
     font-weight: 400;
     border-radius: 25px;
     border: 1px solid var(--3, #F9F9F9);
+    background-color: #0A9687;
+    color: #F9F9F9;
 }
 .header_items {
     width: 312px;
@@ -69,19 +72,34 @@ body {
     margin-left: 80px;
     padding: 27px 0;
 }
-
+/* Поломанная иконка, надо починить */
 .pensioners {
     color: #000;
     display: flex;
     margin-top: 25px;
+    border-radius: 15px;
+    background: #D8FFF9;
+    width: 345px;
+    height: 57px;
+    
 }
 .pensioners_photo {
-    width: 150px;
+    /* width: 150px; */
     margin-left: auto;
+    width: 96px;
+    height: 85px;
+    aspect-ratio: 96/85;
 }
 
 .pensionerss {
     margin-right: auto;
+    color: #000;
+    font-family: "TT Hoves";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
 }
 /* Все услуги */
 
